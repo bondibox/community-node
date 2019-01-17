@@ -84,8 +84,8 @@ Download the latest config file and put it in the build/libs/ directory
 
 
 wget https://raw.githubusercontent.com/tronprotocol/tron-deployment/master/main_net_config.conf  
-mv main_net_config.conf config.conf
 
+    mv main_net_config.conf config.conf
 
 **config.conf changes** (use your own private key)
 
