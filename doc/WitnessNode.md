@@ -235,12 +235,6 @@ Here's a command to extract the display of discovered nodes.
 	
 > Write Node statistics to PeersStore: 2375 nodes.
 
-
-
-
-
-
-
 03:14:24.478 INFO  [nioEventLoopGroup-4-2] [o.t.c.n.n.NodeImpl](NodeImpl.java:1077) update peer 104.237.3.78 block both we have Num:215999,ID:0000000000034bbf8af84f11623bd1cbc6f8eb43caafbc08d35e05e59fb60c7f
 03:14:27.269 INFO  [nioEventLoopGroup-4-2] [o.t.c.d.DynamicPropertiesStore](DynamicPropertiesStore.java:552) update latest block header id = 0000000000034bc061fcd76d5350d4992dc44f38513ae19800525ca9a8e80abc
 03:14:27.269 INFO  [nioEventLoopGroup-4-2] [o.t.c.d.DynamicPropertiesStore](DynamicPropertiesStore.java:544) update latest block header number = 216000
