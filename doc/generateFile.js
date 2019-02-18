@@ -7,18 +7,16 @@
 //
 /************************** Command line  USAGE    *******************************/
 //This script ouput is the input for script tronair.js
-// begin with NPM Libraries
+// Two files are required - generateFile.js and tronair.js
+//
+// begin with creating a project directory
+//                       npm init
+// now install NPM Libraries
 //                        npm install tronvotes
 //                        npm install tronix.js
 //
-// THIS File will set the SR Candidate whose voters you will be rewarding
-// THIS File will set the AMOUNT of tokens you will be rewarding per-vote
-//
-// After configuring THIS file you will run
-//                        node generateFile.js
-// Which will output a file of voters and their WEIGHTED vote share
-// Execute the airdrop after configuring tronair.js file
-//                        node tronair.js votes_TDGy_2019_02_10at22_20_DONE.json
+// generateFile.js will set the SR Candidate whose voters you will be rewarding
+// generateFile.js will set the AMOUNT of tokens you will be rewarding per-vote
 //
 /************************** CONFIGURATION AREA **********************************/
 // 
