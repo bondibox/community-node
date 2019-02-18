@@ -44,7 +44,7 @@ var failures = [];
 
 // db2_fullnode
 const client = new GrpcClient({
-  hostname: '45.56.70.49',
+  hostname: 'grpc.trongrid.io',
   port: 50051,
 });
 
