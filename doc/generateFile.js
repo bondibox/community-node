@@ -5,13 +5,23 @@
 //
 // Script for airdroppin tokens (not TRX) based on SR votes (ratio can be configured)
 //
-//This script ouput is the input for script tronair.js
-//so mostly we want 
 /************************** Command line  USAGE    *******************************/
-//                         node generateFile.js
-
+//This script ouput is the input for script tronair.js
+// begin with NPM Libraries
+//                        npm install tronvotes
+//                        npm install tronix.js
+//
+// THIS File will set the SR Candidate whose voters you will be rewarding
+// THIS File will set the AMOUNT of tokens you will be rewarding per-vote
+//
+// After configuring THIS file you will run
+//                        node generateFile.js
+// Which will output a file of voters and their WEIGHTED vote share
+// Execute the airdrop after configuring tronair.js file
+//                        node tronair.js votes_TDGy_2019_02_10at22_20_DONE.json
+//
 /************************** CONFIGURATION AREA **********************************/
-// SET The SR Candidate whose voters you will be rewarding
+// 
 var candidate = "TDGy2M9qWBepSHDEutWWxWd1JZfmAed3BP"; //SR/candidate address from whom we want the votes details 
 var multiplier = .00005; // i.e: 0.0005 for 1 HELP every 2000 votes
 //TODO To change format different than JSON need to edit lines 15, 30 & 37 
